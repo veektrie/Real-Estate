@@ -13,7 +13,6 @@ import {
 import {
   AccountCircleOutlined,
   ChatBubbleOutline,
-  Home,
   PeopleAltOutlined,
   StarOutlineRounded,
   VillaOutlined
@@ -37,7 +36,7 @@ import {
   CreateProperty,
   AgentProfile,
   EditProperty
-} from "pages/login";
+} from "pages";
 
 const axiosInstance = axios.create();
 axiosInstance.interceptors.request.use((request: AxiosRequestConfig) => {
